@@ -19,3 +19,12 @@ class Post(models.Model):
     class Meta:
         verbose_name = 'Публикация'
         verbose_name_plural = 'Публикации'
+
+
+
+
+
+class Test(models.Model):
+    name = models.CharField(max_length=5, verbose_name="name")
+
+
