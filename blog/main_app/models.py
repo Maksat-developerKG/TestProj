@@ -19,4 +19,3 @@ class Post(models.Model):
     class Meta:
         verbose_name = 'Публикация'
         verbose_name_plural = 'Публикации'
-
